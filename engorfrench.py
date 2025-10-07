@@ -1,6 +1,3 @@
-
-
-
 def lang(x):
     numberS = 0
     numberT = 0
@@ -9,12 +6,16 @@ def lang(x):
             numberS = numberS+1
         if char == "T" or char == "t":
             numberT=numberT+1
-
     if numberT > numberS:
         print("Your input is likely English.")
     elif numberS >= numberT:
         print("Your text is likely French.")
-
-
-
 lang(input("Enter your text: "))
+
+
+
+
+
+
+
+
